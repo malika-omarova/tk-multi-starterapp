@@ -18,3 +18,21 @@ QListView, QTableView, QScrollArea {
 }
 
 */
+QMainWindow{
+background-color: rgb(75, 75, 75);
+},
+QPushButton{
+	background-color:  rgb(107, 107, 107);
+	font:  15px;
+	color:  rgb(255, 255, 255)
+}
+QPushButton:hover{
+	background-color:  rgb(255, 139, 214);
+	font:  15px;
+	color:    rgb(28, 217, 255)
+}
+QPushButton:pressed{
+	background-color:  rgb(255, 139, 214);
+	font:  15px;
+	color:  rgb(28, 217, 255)
+}
